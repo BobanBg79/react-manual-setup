@@ -142,3 +142,6 @@ You can put your SVG files anywhere in your src/ folder and import them wherever
   &emsp;}
   }</pre>
 
+
+### Useful links:
+https://medium.com/age-of-awareness/setup-react-with-webpack-and-babel-5114a14a47e9
