@@ -1,0 +1,11 @@
+{
+  "name": "react-manual-setup",
+  "version": "1.0.0",
+  "description": "React manual setup with webpack, babel, jest...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Slobodan Krasavcevic",
+  "license": "ISC"
+}
