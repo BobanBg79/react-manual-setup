@@ -106,7 +106,7 @@ Use presets in webpack.config.js
 ##### As of version 5, webpack supports images using the built-in Asset Modules (https://webpack.js.org/guides/asset-modules/)
 - Add the following rule into webpack.config.js  
   <pre>{
-  &emsp; test: /\.(png|jp(e\*)g|gif)$/,
+  &emsp; test: /\.(png|jp(e*)g|gif)$/,
   &emsp; type: 'asset/resource',
   }</pre>
 ##### IMPORTANT NOTES: in case SVG will be handled in a different way (different loader) then other images, exclude 'svg' from test regex  
