@@ -1,15 +1,11 @@
 import React from "react";
-import "./styles.scss";
+import AssetsComponent from "./components/AssetsComponent";
+import "./main.scss";
 
-const App = () => {
-  const num = Math.random() * 100;
-
-  return (
-    <div id="main_container">
-      <h1>App js file</h1>
-      <p className="paragraph">Number is: {num}</p>
-    </div>
-  );
-};
+const App = () => (
+  <div id="main_container">
+    <AssetsComponent />
+  </div>
+);
 
 export default App;

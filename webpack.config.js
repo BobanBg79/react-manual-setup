@@ -29,10 +29,18 @@ module.exports = {
           "sass-loader",
         ],
       },
+      {
+        test: /\.(png|jp(e*)g|gif)$/,
+        type: "asset/resource",
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
-    // This will take the /public/index.html and inject script tag to it. And move that HTML file to the dist folder.
+    // This will take the src/index.html and inject script tag with bundle (index.js) into it. And move that HTML file to the dist folder.
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
     }),
